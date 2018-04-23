@@ -1,0 +1,13 @@
+.btn{
+  width: 95px;
+  margin-left: 7px;
+}
+.container{
+  border: 5px lightblue solid;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.bg{
+background-color:  #4472c4;
+color:white;
+}

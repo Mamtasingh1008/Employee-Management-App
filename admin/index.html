@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    <link rel ="Stylesheets" href="admin/design.css"> </style>
+
+  <script src="admin/ll.js"> </script>
+</head>
+<table>
+
+  <td *ngFor="Let S of Students"; let i="index">
+  <td> {{i+1}} </td>
+
+<tr> {{Students|json}}
+  <td> Name: {{Sudents.name}} </td>
+  <td> class: {{Sudents.class}} </td>
+  <td> roll: {{Sudents.roll}} </td>
+  <td> section: {{Sudents.section}} </td>
+</tr>
+</table>
+</body>
+</html>
